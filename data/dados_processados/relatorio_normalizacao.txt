@@ -1,0 +1,6 @@
+RELATORIO DE NORMALIZACAO
+========================================
+Observacoes normalizadas: 391
+
+AVISOS:
+- desenvecono_potencial_economico: presente no histórico, mas ausente no catálogo; não será publicado no MVP.

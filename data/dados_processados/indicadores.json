@@ -1,0 +1,2378 @@
+{
+  "gerado_em": "2026-09-20T16:32:31",
+  "fonte_local": "indicadores.csv + observacoes_normalizadas.csv",
+  "temas": [
+    "Saude",
+    "Educacacao",
+    "Seguranca Publica",
+    "Assistencia Social",
+    "Saneamento basico",
+    "Desenvolvimento economico",
+    "Mobilidade urbana",
+    "Meio ambiente"
+  ],
+  "indicadores": [
+    {
+      "codigo": "saude_tx_mortalidade_infantil",
+      "tema": "Saude",
+      "nome": "Taxa mortalidade infanitl",
+      "unidade": "óbitos por mil nascidos vivos",
+      "definicao": "Mostra o número médio de anos que um recém-nascido tende a viver se os padrões de morte do momento continuarem os mesmos.",
+      "uso": "Serve para medir a qualidade de vida e o desenvolvimento de uma região",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://cidades.ibge.gov.br/brasil/rj/sao-goncalo/pesquisa/39/30279",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2025,
+      "ultimo_valor": 13.91,
+      "dados": [
+        {
+          "ano": 2006,
+          "valor": 14.09
+        },
+        {
+          "ano": 2007,
+          "valor": 15.2
+        },
+        {
+          "ano": 2008,
+          "valor": 14.02
+        },
+        {
+          "ano": 2009,
+          "valor": 14.96
+        },
+        {
+          "ano": 2010,
+          "valor": 13.97
+        },
+        {
+          "ano": 2011,
+          "valor": 13.2
+        },
+        {
+          "ano": 2012,
+          "valor": 11.94
+        },
+        {
+          "ano": 2013,
+          "valor": 11.69
+        },
+        {
+          "ano": 2014,
+          "valor": 13.38
+        },
+        {
+          "ano": 2015,
+          "valor": 12.11
+        },
+        {
+          "ano": 2016,
+          "valor": 14.23
+        },
+        {
+          "ano": 2017,
+          "valor": 12.75
+        },
+        {
+          "ano": 2018,
+          "valor": 12.58
+        },
+        {
+          "ano": 2019,
+          "valor": 14.47
+        },
+        {
+          "ano": 2020,
+          "valor": 12.33
+        },
+        {
+          "ano": 2021,
+          "valor": 10.65
+        },
+        {
+          "ano": 2022,
+          "valor": 12.56
+        },
+        {
+          "ano": 2023,
+          "valor": 13.16
+        },
+        {
+          "ano": 2024,
+          "valor": 12.77
+        },
+        {
+          "ano": 2025,
+          "valor": 13.91
+        }
+      ]
+    },
+    {
+      "codigo": "saude_exp_vida",
+      "tema": "Saude",
+      "nome": "Expectativa de vida",
+      "unidade": "",
+      "definicao": "Mostra o numero medio de expectativa de vida ao longo dos anos",
+      "uso": "Serve para medir a qualidade de vida e o desenvolvimento de uma região",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "http://www.atlasbrasil.org.br/consulta/planilha",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2010,
+      "ultimo_valor": 74.96,
+      "dados": [
+        {
+          "ano": 2000,
+          "valor": 70.08
+        },
+        {
+          "ano": 2010,
+          "valor": 74.96
+        }
+      ]
+    },
+    {
+      "codigo": "saude_cob_APS",
+      "tema": "Saude",
+      "nome": "Cobertura atencao primaria (APS)",
+      "unidade": "",
+      "definicao": "Mede a proporçao da populaçao que tem atendimento garantido pelas equipes de saude da familia e de atençao basica",
+      "uso": "Permite identificar vazios assistencias e planejar lotaçao de agentes bem como a reduçao da sobrecarga nas unidades de pronto atendimento (UPAs) e hospitais",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://sistemas.saude.rj.gov.br/tabnetbd/webtabx.exe?at_primaria/at_primaria_cobertura.def",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2020,
+      "ultimo_valor": 75.99,
+      "dados": [
+        {
+          "ano": 2010,
+          "valor": 73.89
+        },
+        {
+          "ano": 2011,
+          "valor": 72.42
+        },
+        {
+          "ano": 2012,
+          "valor": 77.52
+        },
+        {
+          "ano": 2013,
+          "valor": 78.73
+        },
+        {
+          "ano": 2014,
+          "valor": 79.73
+        },
+        {
+          "ano": 2015,
+          "valor": 67.27
+        },
+        {
+          "ano": 2016,
+          "valor": 78.8
+        },
+        {
+          "ano": 2017,
+          "valor": 82.63
+        },
+        {
+          "ano": 2018,
+          "valor": 82.38
+        },
+        {
+          "ano": 2019,
+          "valor": 79.48
+        },
+        {
+          "ano": 2020,
+          "valor": 75.99
+        }
+      ]
+    },
+    {
+      "codigo": "saude_cob_BCG",
+      "tema": "Saude",
+      "nome": "Cobertura vacinal (BCG)",
+      "unidade": "",
+      "definicao": "Mede a quantidade de aplicaçoes de BGC =>1 ano.",
+      "uso": "Permite identificar quantos recem nascidos estao protegidos da tuberculose.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://tabnet.datasus.gov.br/cgi/dhdat.exe?bd_pni/cpnibr.def",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2022,
+      "ultimo_valor": 47.39,
+      "dados": [
+        {
+          "ano": 2000,
+          "valor": 104.89
+        },
+        {
+          "ano": 2006,
+          "valor": 90.1
+        },
+        {
+          "ano": 2007,
+          "valor": 96.01
+        },
+        {
+          "ano": 2008,
+          "valor": 97.3
+        },
+        {
+          "ano": 2009,
+          "valor": 101.18
+        },
+        {
+          "ano": 2010,
+          "valor": 94.8
+        },
+        {
+          "ano": 2011,
+          "valor": 107.36
+        },
+        {
+          "ano": 2012,
+          "valor": 99.04
+        },
+        {
+          "ano": 2013,
+          "valor": 102.71
+        },
+        {
+          "ano": 2014,
+          "valor": 110.54
+        },
+        {
+          "ano": 2015,
+          "valor": 112.06
+        },
+        {
+          "ano": 2016,
+          "valor": 101.97
+        },
+        {
+          "ano": 2017,
+          "valor": 102.89
+        },
+        {
+          "ano": 2018,
+          "valor": 111.51
+        },
+        {
+          "ano": 2019,
+          "valor": 109.7
+        },
+        {
+          "ano": 2020,
+          "valor": 51.09
+        },
+        {
+          "ano": 2021,
+          "valor": 46.98
+        },
+        {
+          "ano": 2022,
+          "valor": 47.39
+        }
+      ]
+    },
+    {
+      "codigo": "educ_mat_crches",
+      "tema": "Educacacao",
+      "nome": "Matriculas em creche",
+      "unidade": "",
+      "definicao": "Número de matrículas de crianças na etapa de creche da educação infantil, destinada, no Censo Escolar, à faixa de 0 a 3 anos.",
+      "uso": "Acompanhar a oferta e o atendimento educacional na primeira etapa da educação infantil. É útil para observar expansão ou redução das vagas e dimensionar a demanda por educação infantil.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/sinopses-estatisticas/educacao-basica",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2025,
+      "ultimo_valor": 6041.0,
+      "dados": [
+        {
+          "ano": 2010,
+          "valor": 3221.0
+        },
+        {
+          "ano": 2011,
+          "valor": 3558.0
+        },
+        {
+          "ano": 2012,
+          "valor": 3940.0
+        },
+        {
+          "ano": 2013,
+          "valor": 4553.0
+        },
+        {
+          "ano": 2014,
+          "valor": 4696.0
+        },
+        {
+          "ano": 2015,
+          "valor": 5113.0
+        },
+        {
+          "ano": 2016,
+          "valor": 6002.0
+        },
+        {
+          "ano": 2017,
+          "valor": 6046.0
+        },
+        {
+          "ano": 2018,
+          "valor": 6094.0
+        },
+        {
+          "ano": 2019,
+          "valor": 6261.0
+        },
+        {
+          "ano": 2020,
+          "valor": 5617.0
+        },
+        {
+          "ano": 2021,
+          "valor": 4094.0
+        },
+        {
+          "ano": 2022,
+          "valor": 6223.0
+        },
+        {
+          "ano": 2023,
+          "valor": 6437.0
+        },
+        {
+          "ano": 2024,
+          "valor": 6186.0
+        },
+        {
+          "ano": 2025,
+          "valor": 6041.0
+        }
+      ]
+    },
+    {
+      "codigo": "educ_mat_preescola",
+      "tema": "Educacacao",
+      "nome": "Matricula pré-escola",
+      "unidade": "",
+      "definicao": "Número de matrículas na pré-escola, etapa da educação infantil destinada a crianças de 4 e 5 anos.",
+      "uso": "Acompanhar o atendimento educacional das crianças antes do ensino fundamental e a evolução da oferta de vagas nessa etapa.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/sinopses-estatisticas/educacao-basica",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2025,
+      "ultimo_valor": 13295.0,
+      "dados": [
+        {
+          "ano": 2010,
+          "valor": 13037.0
+        },
+        {
+          "ano": 2011,
+          "valor": 14905.0
+        },
+        {
+          "ano": 2012,
+          "valor": 14567.0
+        },
+        {
+          "ano": 2013,
+          "valor": 15871.0
+        },
+        {
+          "ano": 2014,
+          "valor": 15587.0
+        },
+        {
+          "ano": 2015,
+          "valor": 14263.0
+        },
+        {
+          "ano": 2016,
+          "valor": 14601.0
+        },
+        {
+          "ano": 2017,
+          "valor": 14652.0
+        },
+        {
+          "ano": 2018,
+          "valor": 14915.0
+        },
+        {
+          "ano": 2019,
+          "valor": 14927.0
+        },
+        {
+          "ano": 2020,
+          "valor": 14129.0
+        },
+        {
+          "ano": 2021,
+          "valor": 12166.0
+        },
+        {
+          "ano": 2022,
+          "valor": 13665.0
+        },
+        {
+          "ano": 2023,
+          "valor": 14241.0
+        },
+        {
+          "ano": 2024,
+          "valor": 14498.0
+        },
+        {
+          "ano": 2025,
+          "valor": 13295.0
+        }
+      ]
+    },
+    {
+      "codigo": "educ_mat_anos_iniciais",
+      "tema": "Educacacao",
+      "nome": "Matriculas anos iniciais",
+      "unidade": "",
+      "definicao": "Número de matrículas nos anos iniciais do ensino fundamental, correspondentes, no ensino fundamental de nove anos, aos 1º ao 5º anos.",
+      "uso": "Monitorar o tamanho da população atendida nessa etapa e a evolução da demanda por vagas nos primeiros anos do ensino fundamental.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/sinopses-estatisticas/educacao-basica",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2025,
+      "ultimo_valor": 86414.0,
+      "dados": [
+        {
+          "ano": 2010,
+          "valor": 115386.0
+        },
+        {
+          "ano": 2011,
+          "valor": 114862.0
+        },
+        {
+          "ano": 2012,
+          "valor": 110410.0
+        },
+        {
+          "ano": 2013,
+          "valor": 113859.0
+        },
+        {
+          "ano": 2014,
+          "valor": 109639.0
+        },
+        {
+          "ano": 2015,
+          "valor": 102593.0
+        },
+        {
+          "ano": 2016,
+          "valor": 102846.0
+        },
+        {
+          "ano": 2017,
+          "valor": 99424.0
+        },
+        {
+          "ano": 2018,
+          "valor": 97382.0
+        },
+        {
+          "ano": 2019,
+          "valor": 96094.0
+        },
+        {
+          "ano": 2020,
+          "valor": 94414.0
+        },
+        {
+          "ano": 2021,
+          "valor": 89729.0
+        },
+        {
+          "ano": 2022,
+          "valor": 90673.0
+        },
+        {
+          "ano": 2023,
+          "valor": 89415.0
+        },
+        {
+          "ano": 2024,
+          "valor": 89922.0
+        },
+        {
+          "ano": 2025,
+          "valor": 86414.0
+        }
+      ]
+    },
+    {
+      "codigo": "educ_mat_anos_finais",
+      "tema": "Educacacao",
+      "nome": "Matricula anos finais",
+      "unidade": "",
+      "definicao": "Número de matrículas nos anos finais do ensino fundamental, correspondentes aos 6º ao 9º anos.",
+      "uso": "Acompanhar a quantidade de estudantes atendidos nos anos finais e mudanças na demanda educacional dessa etapa. Também permite comparar a evolução dos anos finais com os anos iniciais.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/sinopses-estatisticas/educacao-basica",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2025,
+      "ultimo_valor": 21394.0,
+      "dados": [
+        {
+          "ano": 2010,
+          "valor": 26826.0
+        },
+        {
+          "ano": 2011,
+          "valor": 26399.0
+        },
+        {
+          "ano": 2012,
+          "valor": 26481.0
+        },
+        {
+          "ano": 2013,
+          "valor": 25962.0
+        },
+        {
+          "ano": 2014,
+          "valor": 26828.0
+        },
+        {
+          "ano": 2015,
+          "valor": 26515.0
+        },
+        {
+          "ano": 2016,
+          "valor": 26678.0
+        },
+        {
+          "ano": 2017,
+          "valor": 26154.0
+        },
+        {
+          "ano": 2018,
+          "valor": 25125.0
+        },
+        {
+          "ano": 2019,
+          "valor": 24172.0
+        },
+        {
+          "ano": 2020,
+          "valor": 24220.0
+        },
+        {
+          "ano": 2021,
+          "valor": 23646.0
+        },
+        {
+          "ano": 2022,
+          "valor": 25183.0
+        },
+        {
+          "ano": 2023,
+          "valor": 23487.0
+        },
+        {
+          "ano": 2024,
+          "valor": 22536.0
+        },
+        {
+          "ano": 2025,
+          "valor": 21394.0
+        }
+      ]
+    },
+    {
+      "codigo": "educ_tx_analfab_11a14",
+      "tema": "Educacacao",
+      "nome": "Taxa analfabetismo 11 a 14 anos",
+      "unidade": "",
+      "definicao": "Percentual de pessoas de 11 a 14 anos que não sabem ler e escrever, em relação ao total da população dessa mesma faixa etária.",
+      "uso": "Identificar precocemente a ocorrência de analfabetismo durante a idade correspondente aos anos finais da escolarização obrigatória e acompanhar sua evolução.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "http://www.atlasbrasil.org.br/consulta/planilha",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2010,
+      "ultimo_valor": 1.39,
+      "dados": [
+        {
+          "ano": 2010,
+          "valor": 1.39
+        }
+      ]
+    },
+    {
+      "codigo": "educ_tx_analfab_15a17",
+      "tema": "Educacacao",
+      "nome": "Taxa analfabetismo 15 a 17 anos",
+      "unidade": "",
+      "definicao": "Percentual de pessoas de 15 a 17 anos que não sabem ler e escrever, em relação ao total de pessoas dessa faixa etária.",
+      "uso": "Monitorar a persistência do analfabetismo entre adolescentes e observar a situação educacional desse grupo ao longo do tempo.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "http://www.atlasbrasil.org.br/consulta/planilha",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2010,
+      "ultimo_valor": 1.02,
+      "dados": [
+        {
+          "ano": 2010,
+          "valor": 1.02
+        }
+      ]
+    },
+    {
+      "codigo": "educ_tx_analfab_18a24",
+      "tema": "Educacacao",
+      "nome": "Taxa de analfabetismo 18 a 24 anos",
+      "unidade": "",
+      "definicao": "Percentual de pessoas de 18 a 24 anos que não sabem ler e escrever, em relação ao total dessa faixa etária.",
+      "uso": "Acompanhar a ocorrência de analfabetismo entre jovens que já estão ou deveriam estar além da educação básica obrigatória.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "http://www.atlasbrasil.org.br/consulta/planilha",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2010,
+      "ultimo_valor": 0.82,
+      "dados": [
+        {
+          "ano": 2010,
+          "valor": 0.82
+        }
+      ]
+    },
+    {
+      "codigo": "educ_tx_analfab_25a29",
+      "tema": "Educacacao",
+      "nome": "Taxa analfabetismo 25 a 29 anos",
+      "unidade": "",
+      "definicao": "Percentual de pessoas de 25 a 29 anos que não sabem ler e escrever, em relação ao total dessa faixa etária.",
+      "uso": "Observar a persistência do analfabetismo na população jovem adulta e sua evolução histórica.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "http://www.atlasbrasil.org.br/consulta/planilha",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2010,
+      "ultimo_valor": 0.94,
+      "dados": [
+        {
+          "ano": 2010,
+          "valor": 0.94
+        }
+      ]
+    },
+    {
+      "codigo": "educ_tx_analfab_25mais",
+      "tema": "Educacacao",
+      "nome": "Taxa analfabetismo 25 anos ou mais",
+      "unidade": "",
+      "definicao": "Percentual de pessoas de 25 anos ou mais que não sabem ler e escrever, em relação ao total da população dessa faixa etária.",
+      "uso": "Medir a dimensão do analfabetismo na população adulta e acompanhar sua evolução ao longo do tempo. O IBGE utiliza essa faixa etária em suas divulgações de analfabetismo.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "http://www.atlasbrasil.org.br/consulta/planilha",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2010,
+      "ultimo_valor": 4.25,
+      "dados": [
+        {
+          "ano": 2010,
+          "valor": 4.25
+        }
+      ]
+    },
+    {
+      "codigo": "educ_tx_evasao_fundamental",
+      "tema": "Educacacao",
+      "nome": "Taxa de evasao ensino fundamental",
+      "unidade": "",
+      "definicao": "Percentual de estudantes do ensino fundamental que, ao final do ano letivo, são classificados na situação de abandono, conforme a metodologia da taxa de rendimento escolar utilizada pela fonte.",
+      "uso": "Monitorar a permanência dos estudantes no ensino fundamental e identificar mudanças na proporção de alunos que deixam de frequentar a escola durante o ano letivo.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "http://www.atlasbrasil.org.br/consulta/planilha",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2014,
+      "ultimo_valor": 6.4,
+      "dados": [
+        {
+          "ano": 2013,
+          "valor": 4.3
+        },
+        {
+          "ano": 2014,
+          "valor": 6.4
+        }
+      ]
+    },
+    {
+      "codigo": "educ_tx_evasao_medio",
+      "tema": "Educacacao",
+      "nome": "Taxa de evasao ensino medio",
+      "unidade": "",
+      "definicao": "Percentual de estudantes do ensino médio classificados na situação de abandono ao final do ano letivo, conforme a metodologia da fonte.",
+      "uso": "Acompanhar a permanência dos estudantes no ensino médio e identificar mudanças no abandono nessa etapa.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "http://www.atlasbrasil.org.br/consulta/planilha",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2014,
+      "ultimo_valor": 10.2,
+      "dados": [
+        {
+          "ano": 2013,
+          "valor": 8.9
+        },
+        {
+          "ano": 2014,
+          "valor": 10.2
+        }
+      ]
+    },
+    {
+      "codigo": "seg_tx_homicidio_doloso",
+      "tema": "Seguranca Publica",
+      "nome": "Taxa de homicidio doloso",
+      "unidade": "",
+      "definicao": "Número de homicídios dolosos registrados em determinado período em relação à população residente, geralmente expressa por 100 mil habitantes. Homicídio doloso corresponde à morte de alguém com indício de ação intencional, segundo a classificação estatística adotada pelo Sinesp.",
+      "uso": "Monitorar a ocorrência de mortes violentas intencionais e comparar a evolução da violência letal ao longo do tempo.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "http://www.atlasbrasil.org.br/consulta/planilha",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2024,
+      "ultimo_valor": 82.0,
+      "dados": [
+        {
+          "ano": 2014,
+          "valor": 345.0
+        },
+        {
+          "ano": 2015,
+          "valor": 281.0
+        },
+        {
+          "ano": 2016,
+          "valor": 320.0
+        },
+        {
+          "ano": 2017,
+          "valor": 406.0
+        },
+        {
+          "ano": 2018,
+          "valor": 331.0
+        },
+        {
+          "ano": 2019,
+          "valor": 261.0
+        },
+        {
+          "ano": 2020,
+          "valor": 281.0
+        },
+        {
+          "ano": 2021,
+          "valor": 202.0
+        },
+        {
+          "ano": 2022,
+          "valor": 146.0
+        },
+        {
+          "ano": 2023,
+          "valor": 133.0
+        },
+        {
+          "ano": 2024,
+          "valor": 82.0
+        }
+      ]
+    },
+    {
+      "codigo": "seg_ameacas",
+      "tema": "Seguranca Publica",
+      "nome": "Ameaças",
+      "unidade": "",
+      "definicao": "Número de ocorrências registradas pelas autoridades policiais classificadas como ameaça, conforme a legislação e a metodologia da fonte.",
+      "uso": "Acompanhar a frequência registrada desse tipo de ocorrência e sua evolução temporal.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://www.ispvisualizacao.rj.gov.br/",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2024,
+      "ultimo_valor": 2132.0,
+      "dados": [
+        {
+          "ano": 2014,
+          "valor": 5394.0
+        },
+        {
+          "ano": 2015,
+          "valor": 4016.0
+        },
+        {
+          "ano": 2016,
+          "valor": 3368.0
+        },
+        {
+          "ano": 2017,
+          "valor": 2455.0
+        },
+        {
+          "ano": 2018,
+          "valor": 2198.0
+        },
+        {
+          "ano": 2019,
+          "valor": 2440.0
+        },
+        {
+          "ano": 2020,
+          "valor": 1405.0
+        },
+        {
+          "ano": 2021,
+          "valor": 1247.0
+        },
+        {
+          "ano": 2022,
+          "valor": 1587.0
+        },
+        {
+          "ano": 2023,
+          "valor": 1942.0
+        },
+        {
+          "ano": 2024,
+          "valor": 2132.0
+        }
+      ]
+    },
+    {
+      "codigo": "seg_estelionato",
+      "tema": "Seguranca Publica",
+      "nome": "Estelionato",
+      "unidade": "",
+      "definicao": "Número de ocorrências policiais registradas como estelionato, correspondentes, conforme a legislação penal, a situações de obtenção de vantagem ilícita mediante fraude.",
+      "uso": "Acompanhar a evolução dos registros de crimes patrimoniais praticados mediante fraude.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://www.ispvisualizacao.rj.gov.br/",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2024,
+      "ultimo_valor": 4210.0,
+      "dados": [
+        {
+          "ano": 2014,
+          "valor": 1339.0
+        },
+        {
+          "ano": 2015,
+          "valor": 1421.0
+        },
+        {
+          "ano": 2016,
+          "valor": 1404.0
+        },
+        {
+          "ano": 2017,
+          "valor": 1178.0
+        },
+        {
+          "ano": 2018,
+          "valor": 1309.0
+        },
+        {
+          "ano": 2019,
+          "valor": 1330.0
+        },
+        {
+          "ano": 2020,
+          "valor": 1675.0
+        },
+        {
+          "ano": 2021,
+          "valor": 1984.0
+        },
+        {
+          "ano": 2022,
+          "valor": 4413.0
+        },
+        {
+          "ano": 2023,
+          "valor": 4218.0
+        },
+        {
+          "ano": 2024,
+          "valor": 4210.0
+        }
+      ]
+    },
+    {
+      "codigo": "seg_preconceitos_todos",
+      "tema": "Seguranca Publica",
+      "nome": "Preconceitos de qualquer tipo",
+      "unidade": "",
+      "definicao": "Número de registros ou vítimas relacionados a crimes de preconceito ou discriminação, conforme as categorias adotadas pela fonte. No RJ, por exemplo, o ISP separa injúria por preconceito, preconceito de raça/cor e outras categorias.",
+      "uso": "Monitorar registros relacionados à discriminação e intolerância.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://www.ispvisualizacao.rj.gov.br/",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2024,
+      "ultimo_valor": 23.0,
+      "dados": [
+        {
+          "ano": 2014,
+          "valor": 4.0
+        },
+        {
+          "ano": 2015,
+          "valor": 4.0
+        },
+        {
+          "ano": 2016,
+          "valor": 2.0
+        },
+        {
+          "ano": 2017,
+          "valor": 7.0
+        },
+        {
+          "ano": 2020,
+          "valor": 5.0
+        },
+        {
+          "ano": 2021,
+          "valor": 6.0
+        },
+        {
+          "ano": 2022,
+          "valor": 9.0
+        },
+        {
+          "ano": 2023,
+          "valor": 28.0
+        },
+        {
+          "ano": 2024,
+          "valor": 23.0
+        }
+      ]
+    },
+    {
+      "codigo": "seg_latrocinio",
+      "tema": "Seguranca Publica",
+      "nome": "Latrocinio",
+      "unidade": "",
+      "definicao": "Número de casos de roubo que resultaram em morte. O Sinesp classifica o roubo seguido de morte como latrocínio e o separa dos homicídios dolosos.",
+      "uso": "Acompanhar a incidência de crimes patrimoniais com resultado morte.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://www.ispvisualizacao.rj.gov.br/",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2024,
+      "ultimo_valor": 4.0,
+      "dados": [
+        {
+          "ano": 2014,
+          "valor": 14.0
+        },
+        {
+          "ano": 2015,
+          "valor": 22.0
+        },
+        {
+          "ano": 2016,
+          "valor": 16.0
+        },
+        {
+          "ano": 2017,
+          "valor": 25.0
+        },
+        {
+          "ano": 2018,
+          "valor": 11.0
+        },
+        {
+          "ano": 2019,
+          "valor": 16.0
+        },
+        {
+          "ano": 2020,
+          "valor": 9.0
+        },
+        {
+          "ano": 2021,
+          "valor": 12.0
+        },
+        {
+          "ano": 2022,
+          "valor": 3.0
+        },
+        {
+          "ano": 2023,
+          "valor": 2.0
+        },
+        {
+          "ano": 2024,
+          "valor": 4.0
+        }
+      ]
+    },
+    {
+      "codigo": "seg_injuria",
+      "tema": "Seguranca Publica",
+      "nome": "Injuria",
+      "unidade": "",
+      "definicao": "Número de ocorrências registradas como injúria, isto é, ofensa à dignidade ou ao decoro de alguém, segundo a classificação jurídica utilizada pela fonte.",
+      "uso": "Monitorar a evolução dos registros desse tipo de ocorrência.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://www.ispvisualizacao.rj.gov.br/",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2024,
+      "ultimo_valor": 1532.0,
+      "dados": [
+        {
+          "ano": 2014,
+          "valor": 2380.0
+        },
+        {
+          "ano": 2015,
+          "valor": 1593.0
+        },
+        {
+          "ano": 2016,
+          "valor": 1739.0
+        },
+        {
+          "ano": 2017,
+          "valor": 1368.0
+        },
+        {
+          "ano": 2018,
+          "valor": 1191.0
+        },
+        {
+          "ano": 2019,
+          "valor": 1591.0
+        },
+        {
+          "ano": 2020,
+          "valor": 810.0
+        },
+        {
+          "ano": 2021,
+          "valor": 730.0
+        },
+        {
+          "ano": 2022,
+          "valor": 1015.0
+        },
+        {
+          "ano": 2023,
+          "valor": 1245.0
+        },
+        {
+          "ano": 2024,
+          "valor": 1532.0
+        }
+      ]
+    },
+    {
+      "codigo": "seg_desaparecidos",
+      "tema": "Seguranca Publica",
+      "nome": "Pessoas desaparecidas",
+      "unidade": "",
+      "definicao": "Número de pessoas cujo paradeiro é desconhecido e cujo desaparecimento foi registrado, segundo a definição e metodologia da fonte. A legislação brasileira considera desaparecida a pessoa cujo paradeiro é desconhecido, independentemente da causa.",
+      "uso": "Acompanhar a quantidade de desaparecimentos registrados e sua evolução histórica.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://www.ispvisualizacao.rj.gov.br/",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2024,
+      "ultimo_valor": 208.0,
+      "dados": [
+        {
+          "ano": 2014,
+          "valor": 396.0
+        },
+        {
+          "ano": 2015,
+          "valor": 333.0
+        },
+        {
+          "ano": 2016,
+          "valor": 321.0
+        },
+        {
+          "ano": 2017,
+          "valor": 238.0
+        },
+        {
+          "ano": 2018,
+          "valor": 213.0
+        },
+        {
+          "ano": 2019,
+          "valor": 211.0
+        },
+        {
+          "ano": 2020,
+          "valor": 131.0
+        },
+        {
+          "ano": 2021,
+          "valor": 153.0
+        },
+        {
+          "ano": 2022,
+          "valor": 179.0
+        },
+        {
+          "ano": 2023,
+          "valor": 215.0
+        },
+        {
+          "ano": 2024,
+          "valor": 208.0
+        }
+      ]
+    },
+    {
+      "codigo": "seg_tentativa_estup",
+      "tema": "Seguranca Publica",
+      "nome": "Tentativa de estupro",
+      "unidade": "",
+      "definicao": "Número de registros/vítimas de tentativa de estupro, conforme a classificação utilizada pelo órgão responsável pelos dados. O IBGE também apresenta estupro e tentativa de estupro como indicadores de segurança pública.",
+      "uso": "Monitorar a ocorrência registrada de violência sexual na forma tentada.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://www.ispvisualizacao.rj.gov.br/",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2024,
+      "ultimo_valor": 6.0,
+      "dados": [
+        {
+          "ano": 2014,
+          "valor": 32.0
+        },
+        {
+          "ano": 2015,
+          "valor": 29.0
+        },
+        {
+          "ano": 2016,
+          "valor": 19.0
+        },
+        {
+          "ano": 2017,
+          "valor": 20.0
+        },
+        {
+          "ano": 2018,
+          "valor": 7.0
+        },
+        {
+          "ano": 2019,
+          "valor": 17.0
+        },
+        {
+          "ano": 2020,
+          "valor": 8.0
+        },
+        {
+          "ano": 2021,
+          "valor": 7.0
+        },
+        {
+          "ano": 2022,
+          "valor": 9.0
+        },
+        {
+          "ano": 2023,
+          "valor": 5.0
+        },
+        {
+          "ano": 2024,
+          "valor": 6.0
+        }
+      ]
+    },
+    {
+      "codigo": "assist_tx_pobreza_desigualdade",
+      "tema": "Assistencia Social",
+      "nome": "Taxa de pobreza e desigualdade",
+      "unidade": "",
+      "definicao": "Esse nome reúne dois conceitos diferentes. Pobreza mede a proporção da população abaixo de determinada linha de pobreza; desigualdade mede a distribuição da renda, podendo ser representada, por exemplo, pelo Índice de Gini. O IBGE define o Gini como medida de concentração da distribuição, variando de 0 a 1.",
+      "uso": "Monitorar pobreza e distribuição de renda. Recomendo separar em dois indicadores.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://cidades.ibge.gov.br/brasil/rj/sao-goncalo/pesquisa/10079/72454",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": null,
+      "ultimo_valor": null,
+      "dados": []
+    },
+    {
+      "codigo": "assist_porcent_vulneraveis_pobreza_pnad",
+      "tema": "Assistencia Social",
+      "nome": "% de pessoas vulneraveis a pobreza PNAD",
+      "unidade": "",
+      "definicao": "Percentual de pessoas classificadas como vulneráveis à pobreza segundo a linha, conceito e metodologia definidos pela fonte/PNAD utilizada.",
+      "uso": "Acompanhar a parcela da população em situação de vulnerabilidade econômica.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "http://www.atlasbrasil.org.br/consulta/planilha",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2015,
+      "ultimo_valor": 34.53,
+      "dados": [
+        {
+          "ano": 2012,
+          "valor": 21.34
+        },
+        {
+          "ano": 2013,
+          "valor": 11.5
+        },
+        {
+          "ano": 2014,
+          "valor": 47.44
+        },
+        {
+          "ano": 2015,
+          "valor": 34.53
+        }
+      ]
+    },
+    {
+      "codigo": "assist_porcent_pobres_pnad",
+      "tema": "Assistencia Social",
+      "nome": "% de pobres PNAD",
+      "unidade": "",
+      "definicao": "Percentual da população cuja renda se encontra abaixo da linha de pobreza definida pela metodologia utilizada na fonte. O valor depende da linha de pobreza adotada. (Nada IBGE)",
+      "uso": "Acompanhar a proporção da população em situação de pobreza ao longo do tempo.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "http://www.atlasbrasil.org.br/consulta/planilha",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2024,
+      "ultimo_valor": 3.08,
+      "dados": [
+        {
+          "ano": 2017,
+          "valor": 3.03
+        },
+        {
+          "ano": 2018,
+          "valor": 1.55
+        },
+        {
+          "ano": 2019,
+          "valor": 12.91
+        },
+        {
+          "ano": 2020,
+          "valor": 6.19
+        },
+        {
+          "ano": 2021,
+          "valor": 33.55
+        },
+        {
+          "ano": 2022,
+          "valor": 21.16
+        },
+        {
+          "ano": 2023,
+          "valor": 5.74
+        },
+        {
+          "ano": 2024,
+          "valor": 3.08
+        }
+      ]
+    },
+    {
+      "codigo": "assist_porcent_cadunico_bolsafamilia",
+      "tema": "Assistencia Social",
+      "nome": "% pessoas inscritas no Cadastro Unico que recebem Bolsa Familia",
+      "unidade": "",
+      "definicao": "Percentual de pessoas inscritas no Cadastro Único que recebem benefício do Bolsa Família, calculado conforme os denominadores definidos pela fonte. O Cadastro Único é o principal instrumento de identificação e caracterização socioeconômica de famílias de baixa renda, enquanto a inscrição não implica concessão automática do Bolsa Família. (Serviços e Informações do Brasil)",
+      "uso": "Observar a cobertura do Bolsa Família dentro do universo considerado pelo indicador.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "http://www.atlasbrasil.org.br/consulta/planilha",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2017,
+      "ultimo_valor": 69.03,
+      "dados": [
+        {
+          "ano": 2014,
+          "valor": 78.79
+        },
+        {
+          "ano": 2015,
+          "valor": 73.72
+        },
+        {
+          "ano": 2016,
+          "valor": 67.41
+        },
+        {
+          "ano": 2017,
+          "valor": 69.03
+        }
+      ]
+    },
+    {
+      "codigo": "assist_abrigos",
+      "tema": "Assistencia Social",
+      "nome": "Abrigo ou Casa lar (unidades conveniadas)",
+      "unidade": "",
+      "definicao": "Quantidade de unidades de acolhimento, como abrigo institucional ou Casa Lar, que ofertam serviço de acolhimento por meio da rede conveniada, conforme a classificação da fonte. O SUAS inclui Casa Lar e Abrigo Institucional entre as unidades de acolhimento. (Serviços e Informações do Brasil)",
+      "uso": "Acompanhar a disponibilidade da rede de acolhimento socioassistencial.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://cidades.ibge.gov.br/brasil/rj/sao-goncalo/pesquisa/10079/72454",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2013,
+      "ultimo_valor": 4.0,
+      "dados": [
+        {
+          "ano": 2013,
+          "valor": 4.0
+        }
+      ]
+    },
+    {
+      "codigo": "assist_centropop",
+      "tema": "Assistencia Social",
+      "nome": "Centro POP",
+      "unidade": "",
+      "definicao": "Número de unidades do Centro de Referência Especializado para População em Situação de Rua existentes no território. O Centro POP é uma unidade pública voltada ao atendimento especializado da população em situação de rua. (Serviços e Informações do Brasil)",
+      "uso": "Monitorar a estrutura disponível para atendimento especializado à população em situação de rua.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://cidades.ibge.gov.br/brasil/rj/sao-goncalo/pesquisa/10079/72454",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2013,
+      "ultimo_valor": 2.0,
+      "dados": [
+        {
+          "ano": 2013,
+          "valor": 2.0
+        }
+      ]
+    },
+    {
+      "codigo": "assist_creas",
+      "tema": "Assistencia Social",
+      "nome": "CREAS",
+      "unidade": "",
+      "definicao": "Número de Centros de Referência Especializados de Assistência Social existentes no território. O CREAS atende situações que demandam proteção social especial e intervenções especializadas.",
+      "uso": "Acompanhar a estrutura da proteção social especial.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://cidades.ibge.gov.br/brasil/rj/sao-goncalo/pesquisa/10079/72454",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2013,
+      "ultimo_valor": 5.0,
+      "dados": [
+        {
+          "ano": 2013,
+          "valor": 5.0
+        }
+      ]
+    },
+    {
+      "codigo": "assist_cras",
+      "tema": "Assistencia Social",
+      "nome": "CRAS",
+      "unidade": "",
+      "definicao": "Número de Centros de Referência de Assistência Social existentes no território. Os CRAS integram a rede pública de assistência social e atuam principalmente na proteção social básica. (Serviços e Informações do Brasil)",
+      "uso": "Acompanhar a estrutura territorial da proteção social básica.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://cidades.ibge.gov.br/brasil/rj/sao-goncalo/pesquisa/10079/72454",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2013,
+      "ultimo_valor": 18.0,
+      "dados": [
+        {
+          "ano": 2013,
+          "valor": 18.0
+        }
+      ]
+    },
+    {
+      "codigo": "saneamentob_ind_agua_encanada",
+      "tema": "Saneamento basico",
+      "nome": "Indicador de atendimento total de agua",
+      "unidade": "",
+      "definicao": "Percentual da população total atendida por rede de abastecimento de água, segundo a metodologia do SNIS.",
+      "uso": "Monitorar a cobertura do serviço de abastecimento de água.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://tratabrasil.org.br/wp-content/uploads/2023/03/Tabela-Resumo_Ranking-do-Saneamen",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2013,
+      "ultimo_valor": 90.08,
+      "dados": [
+        {
+          "ano": 2013,
+          "valor": 90.08
+        }
+      ]
+    },
+    {
+      "codigo": "saneamentob_ind_esgoto",
+      "tema": "Saneamento basico",
+      "nome": "Indicador de atentimento total de esgoto",
+      "unidade": "",
+      "definicao": "Percentual da população total atendida por rede pública de esgotamento sanitário. No SNIS, o índice de atendimento total é calculado com base na população atendida pelo serviço e na população residente considerada na metodologia. (Serviços e Informações do Brasil)",
+      "uso": "Monitorar a cobertura da rede de esgotamento sanitário.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://tratabrasil.org.br/wp-content/uploads/2023/03/Tabela-Resumo_Ranking-do-Saneamen",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2013,
+      "ultimo_valor": 33.7,
+      "dados": [
+        {
+          "ano": 2013,
+          "valor": 33.7
+        }
+      ]
+    },
+    {
+      "codigo": "saneamentob_ind_trat_esgoto",
+      "tema": "Saneamento basico",
+      "nome": "Indicador de tratamento de esgoto",
+      "unidade": "",
+      "definicao": "Percentual do esgoto tratado em relação a um determinado volume de referência. É necessário registrar se seu dado usa o volume total gerado (IN046) ou o volume coletado (IN016), pois são indicadores diferentes. (Serviços e Informações do Brasil)",
+      "uso": "Avaliar a parcela do esgoto submetida a tratamento.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://tratabrasil.org.br/wp-content/uploads/2023/03/Tabela-Resumo_Ranking-do-Saneamen",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2013,
+      "ultimo_valor": 15.49,
+      "dados": [
+        {
+          "ano": 2013,
+          "valor": 15.49
+        }
+      ]
+    },
+    {
+      "codigo": "saneamentob_ind_coleta_seletiva",
+      "tema": "Saneamento basico",
+      "nome": "Coleta seletiva",
+      "unidade": "",
+      "definicao": "Indicador que representa a existência ou a cobertura da coleta seletiva de resíduos recicláveis, conforme a métrica adotada pela fonte. O SNIS reúne informações sobre coleta seletiva e recuperação de recicláveis. (Serviços e Informações do Brasil)",
+      "uso": "Monitorar a implantação e a abrangência da coleta seletiva.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://infosanbas.org.br/municipio/sao-goncalo-rj/",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2022,
+      "ultimo_valor": 90.4,
+      "dados": [
+        {
+          "ano": 2010,
+          "valor": 93.0
+        },
+        {
+          "ano": 2022,
+          "valor": 90.4
+        }
+      ]
+    },
+    {
+      "codigo": "saneamentob_ind_internacoes_mortes_saneamento_inadequado",
+      "tema": "Saneamento basico",
+      "nome": "Internacoes e mortes por saneamento inadequado",
+      "unidade": "",
+      "definicao": "Mede eventos de hospitalização e/ou óbito associados a doenças relacionadas às condições inadequadas de saneamento, segundo a metodologia epidemiológica adotada pela fonte. Condições inadequadas de saneamento e água podem estar relacionadas à ocorrência de doenças. (BVSMS)",
+      "uso": "Monitorar possíveis impactos das condições de saneamento sobre a saúde da população.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://infosanbas.org.br/municipio/sao-goncalo-rj/",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2021,
+      "ultimo_valor": 54.0,
+      "dados": [
+        {
+          "ano": 2007,
+          "valor": 25.0
+        },
+        {
+          "ano": 2008,
+          "valor": 1537.0
+        },
+        {
+          "ano": 2009,
+          "valor": 1119.0
+        },
+        {
+          "ano": 2010,
+          "valor": 1429.0
+        },
+        {
+          "ano": 2011,
+          "valor": 1369.0
+        },
+        {
+          "ano": 2012,
+          "valor": 919.0
+        },
+        {
+          "ano": 2013,
+          "valor": 511.0
+        },
+        {
+          "ano": 2014,
+          "valor": 250.0
+        },
+        {
+          "ano": 2015,
+          "valor": 93.0
+        },
+        {
+          "ano": 2016,
+          "valor": 119.0
+        },
+        {
+          "ano": 2017,
+          "valor": 62.0
+        },
+        {
+          "ano": 2018,
+          "valor": 67.0
+        },
+        {
+          "ano": 2019,
+          "valor": 66.0
+        },
+        {
+          "ano": 2020,
+          "valor": 70.0
+        },
+        {
+          "ano": 2021,
+          "valor": 54.0
+        }
+      ]
+    },
+    {
+      "codigo": "desenvecono_empregos_formais",
+      "tema": "Desenvolvimento economico",
+      "nome": "Empregos formais",
+      "unidade": "",
+      "definicao": "Quantidade de vínculos de emprego formal registrados no território no período de referência, conforme a fonte utilizada.",
+      "uso": "Monitorar o tamanho e a evolução do mercado de trabalho formal.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://observatorio.sebrae.com.br/",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2025,
+      "ultimo_valor": 118482.0,
+      "dados": [
+        {
+          "ano": 2016,
+          "valor": 115129.0
+        },
+        {
+          "ano": 2017,
+          "valor": 109554.0
+        },
+        {
+          "ano": 2018,
+          "valor": 107336.0
+        },
+        {
+          "ano": 2019,
+          "valor": 105766.0
+        },
+        {
+          "ano": 2020,
+          "valor": 101908.0
+        },
+        {
+          "ano": 2021,
+          "valor": 108186.0
+        },
+        {
+          "ano": 2022,
+          "valor": 117288.0
+        },
+        {
+          "ano": 2023,
+          "valor": 110177.0
+        },
+        {
+          "ano": 2024,
+          "valor": 114852.0
+        },
+        {
+          "ano": 2025,
+          "valor": 118482.0
+        }
+      ]
+    },
+    {
+      "codigo": "desenvecono_emprego_industrial",
+      "tema": "Desenvolvimento economico",
+      "nome": "Emprego no setor Industrial",
+      "unidade": "",
+      "definicao": "Quantidade de vínculos formais classificados em atividades industriais, segundo a classificação econômica da fonte.",
+      "uso": "Identificar o peso e a evolução do emprego industrial no mercado de trabalho formal.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://observatorio.sebrae.com.br/",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2025,
+      "ultimo_valor": 21429.0,
+      "dados": [
+        {
+          "ano": 2016,
+          "valor": 17281.0
+        },
+        {
+          "ano": 2017,
+          "valor": 14925.0
+        },
+        {
+          "ano": 2018,
+          "valor": 13940.0
+        },
+        {
+          "ano": 2019,
+          "valor": 14108.0
+        },
+        {
+          "ano": 2020,
+          "valor": 14077.0
+        },
+        {
+          "ano": 2021,
+          "valor": 15448.0
+        },
+        {
+          "ano": 2022,
+          "valor": 18384.0
+        },
+        {
+          "ano": 2023,
+          "valor": 19567.0
+        },
+        {
+          "ano": 2024,
+          "valor": 21162.0
+        },
+        {
+          "ano": 2025,
+          "valor": 21429.0
+        }
+      ]
+    },
+    {
+      "codigo": "desenvecono_emprego_comercio",
+      "tema": "Desenvolvimento economico",
+      "nome": "Emprego no setor do comercio",
+      "unidade": "",
+      "definicao": "Quantidade de vínculos formais classificados nas atividades de comércio segundo a classificação econômica adotada pela fonte.",
+      "uso": "Acompanhar a participação e a evolução do comércio no emprego formal.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://observatorio.sebrae.com.br/",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2025,
+      "ultimo_valor": 32477.0,
+      "dados": [
+        {
+          "ano": 2016,
+          "valor": 34265.0
+        },
+        {
+          "ano": 2017,
+          "valor": 33108.0
+        },
+        {
+          "ano": 2018,
+          "valor": 31542.0
+        },
+        {
+          "ano": 2019,
+          "valor": 30710.0
+        },
+        {
+          "ano": 2020,
+          "valor": 29905.0
+        },
+        {
+          "ano": 2021,
+          "valor": 31646.0
+        },
+        {
+          "ano": 2022,
+          "valor": 31684.0
+        },
+        {
+          "ano": 2023,
+          "valor": 31891.0
+        },
+        {
+          "ano": 2024,
+          "valor": 31932.0
+        },
+        {
+          "ano": 2025,
+          "valor": 32477.0
+        }
+      ]
+    },
+    {
+      "codigo": "desenvecono_emprego_servicos",
+      "tema": "Desenvolvimento economico",
+      "nome": "Emprego no setor de serviços",
+      "unidade": "",
+      "definicao": "Quantidade de vínculos formais classificados nas atividades de serviços segundo a classificação econômica da fonte.",
+      "uso": "Acompanhar a evolução do emprego no setor de serviços.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://observatorio.sebrae.com.br/",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2025,
+      "ultimo_valor": 50375.0,
+      "dados": [
+        {
+          "ano": 2016,
+          "valor": 46544.0
+        },
+        {
+          "ano": 2017,
+          "valor": 42895.0
+        },
+        {
+          "ano": 2018,
+          "valor": 43071.0
+        },
+        {
+          "ano": 2019,
+          "valor": 43569.0
+        },
+        {
+          "ano": 2020,
+          "valor": 38074.0
+        },
+        {
+          "ano": 2021,
+          "valor": 40951.0
+        },
+        {
+          "ano": 2022,
+          "valor": 45445.0
+        },
+        {
+          "ano": 2023,
+          "valor": 46215.0
+        },
+        {
+          "ano": 2024,
+          "valor": 47880.0
+        },
+        {
+          "ano": 2025,
+          "valor": 50375.0
+        }
+      ]
+    },
+    {
+      "codigo": "desenvecono_emprego_adm_publica",
+      "tema": "Desenvolvimento economico",
+      "nome": "Emprego no setor da administraçao publica",
+      "unidade": "",
+      "definicao": "Quantidade de vínculos formais classificados nas atividades de administração pública, defesa e seguridade social, conforme a classificação utilizada pela fonte.",
+      "uso": "Monitorar a dimensão do emprego formal ligado à administração pública.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://observatorio.sebrae.com.br/",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2025,
+      "ultimo_valor": 14070.0,
+      "dados": [
+        {
+          "ano": 2016,
+          "valor": 16955.0
+        },
+        {
+          "ano": 2017,
+          "valor": 18429.0
+        },
+        {
+          "ano": 2018,
+          "valor": 18728.0
+        },
+        {
+          "ano": 2019,
+          "valor": 17360.0
+        },
+        {
+          "ano": 2020,
+          "valor": 19834.0
+        },
+        {
+          "ano": 2021,
+          "valor": 20118.0
+        },
+        {
+          "ano": 2022,
+          "valor": 21631.0
+        },
+        {
+          "ano": 2023,
+          "valor": 12329.0
+        },
+        {
+          "ano": 2024,
+          "valor": 13794.0
+        },
+        {
+          "ano": 2025,
+          "valor": 14070.0
+        }
+      ]
+    },
+    {
+      "codigo": "desenvecono_emprego_agricultura",
+      "tema": "Desenvolvimento economico",
+      "nome": "Emprego no setor da agricultura",
+      "unidade": "",
+      "definicao": "Quantidade de vínculos formais classificados nas atividades agropecuárias conforme a classificação econômica da fonte.",
+      "uso": "Acompanhar a evolução do emprego formal ligado à agropecuária.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://observatorio.sebrae.com.br/",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2025,
+      "ultimo_valor": 131.0,
+      "dados": [
+        {
+          "ano": 2016,
+          "valor": 84.0
+        },
+        {
+          "ano": 2017,
+          "valor": 197.0
+        },
+        {
+          "ano": 2018,
+          "valor": 55.0
+        },
+        {
+          "ano": 2019,
+          "valor": 19.0
+        },
+        {
+          "ano": 2020,
+          "valor": 18.0
+        },
+        {
+          "ano": 2021,
+          "valor": 23.0
+        },
+        {
+          "ano": 2022,
+          "valor": 144.0
+        },
+        {
+          "ano": 2023,
+          "valor": 175.0
+        },
+        {
+          "ano": 2024,
+          "valor": 84.0
+        },
+        {
+          "ano": 2025,
+          "valor": 131.0
+        }
+      ]
+    },
+    {
+      "codigo": "moburb_frota_microonibus",
+      "tema": "Mobilidade urbana",
+      "nome": "Frota de micro onibus",
+      "unidade": "",
+      "definicao": "Quantidade de veículos classificados como micro-ônibus registrados no município no período de referência.",
+      "uso": "Acompanhar a composição e a evolução da frota municipal.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://cidades.ibge.gov.br/brasil/rj/sao-goncalo/pesquisa/22/28120",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2025,
+      "ultimo_valor": 1948.0,
+      "dados": [
+        {
+          "ano": 2006,
+          "valor": 1369.0
+        },
+        {
+          "ano": 2007,
+          "valor": 1588.0
+        },
+        {
+          "ano": 2008,
+          "valor": 1713.0
+        },
+        {
+          "ano": 2009,
+          "valor": 1808.0
+        },
+        {
+          "ano": 2010,
+          "valor": 1743.0
+        },
+        {
+          "ano": 2011,
+          "valor": 1696.0
+        },
+        {
+          "ano": 2012,
+          "valor": 1718.0
+        },
+        {
+          "ano": 2013,
+          "valor": 1760.0
+        },
+        {
+          "ano": 2014,
+          "valor": 1927.0
+        },
+        {
+          "ano": 2015,
+          "valor": 1988.0
+        },
+        {
+          "ano": 2016,
+          "valor": 1959.0
+        },
+        {
+          "ano": 2017,
+          "valor": 1928.0
+        },
+        {
+          "ano": 2018,
+          "valor": 1920.0
+        },
+        {
+          "ano": 2019,
+          "valor": 1965.0
+        },
+        {
+          "ano": 2020,
+          "valor": 1977.0
+        },
+        {
+          "ano": 2021,
+          "valor": 1982.0
+        },
+        {
+          "ano": 2022,
+          "valor": 1984.0
+        },
+        {
+          "ano": 2023,
+          "valor": 1946.0
+        },
+        {
+          "ano": 2024,
+          "valor": 1944.0
+        },
+        {
+          "ano": 2025,
+          "valor": 1948.0
+        }
+      ]
+    },
+    {
+      "codigo": "moburb_frota_onibus",
+      "tema": "Mobilidade urbana",
+      "nome": "Frota de onibus",
+      "unidade": "",
+      "definicao": "Quantidade de veículos classificados como ônibus registrados no município.",
+      "uso": "Monitorar a frota de ônibus e sua evolução ao longo do tempo.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://cidades.ibge.gov.br/brasil/rj/sao-goncalo/pesquisa/22/28120",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2025,
+      "ultimo_valor": 2319.0,
+      "dados": [
+        {
+          "ano": 2006,
+          "valor": 1754.0
+        },
+        {
+          "ano": 2007,
+          "valor": 1887.0
+        },
+        {
+          "ano": 2008,
+          "valor": 2014.0
+        },
+        {
+          "ano": 2009,
+          "valor": 2258.0
+        },
+        {
+          "ano": 2010,
+          "valor": 2670.0
+        },
+        {
+          "ano": 2011,
+          "valor": 2954.0
+        },
+        {
+          "ano": 2012,
+          "valor": 3185.0
+        },
+        {
+          "ano": 2013,
+          "valor": 3202.0
+        },
+        {
+          "ano": 2014,
+          "valor": 3252.0
+        },
+        {
+          "ano": 2015,
+          "valor": 3399.0
+        },
+        {
+          "ano": 2016,
+          "valor": 3340.0
+        },
+        {
+          "ano": 2017,
+          "valor": 3239.0
+        },
+        {
+          "ano": 2018,
+          "valor": 3090.0
+        },
+        {
+          "ano": 2019,
+          "valor": 2940.0
+        },
+        {
+          "ano": 2020,
+          "valor": 2748.0
+        },
+        {
+          "ano": 2021,
+          "valor": 2523.0
+        },
+        {
+          "ano": 2022,
+          "valor": 2412.0
+        },
+        {
+          "ano": 2023,
+          "valor": 2389.0
+        },
+        {
+          "ano": 2024,
+          "valor": 2317.0
+        },
+        {
+          "ano": 2025,
+          "valor": 2319.0
+        }
+      ]
+    },
+    {
+      "codigo": "moburb_frota_motocicleta",
+      "tema": "Mobilidade urbana",
+      "nome": "Frota de motocicleta",
+      "unidade": "",
+      "definicao": "Quantidade de motocicletas registradas no município no período de referência.",
+      "uso": "Acompanhar a evolução da frota de motocicletas e sua participação na mobilidade individual.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://cidades.ibge.gov.br/brasil/rj/sao-goncalo/pesquisa/22/28120",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2025,
+      "ultimo_valor": 76447.0,
+      "dados": [
+        {
+          "ano": 2006,
+          "valor": 12483.0
+        },
+        {
+          "ano": 2007,
+          "valor": 16624.0
+        },
+        {
+          "ano": 2008,
+          "valor": 20338.0
+        },
+        {
+          "ano": 2009,
+          "valor": 22676.0
+        },
+        {
+          "ano": 2010,
+          "valor": 25672.0
+        },
+        {
+          "ano": 2011,
+          "valor": 29156.0
+        },
+        {
+          "ano": 2012,
+          "valor": 32370.0
+        },
+        {
+          "ano": 2013,
+          "valor": 35175.0
+        },
+        {
+          "ano": 2014,
+          "valor": 38111.0
+        },
+        {
+          "ano": 2015,
+          "valor": 40663.0
+        },
+        {
+          "ano": 2016,
+          "valor": 43049.0
+        },
+        {
+          "ano": 2017,
+          "valor": 45448.0
+        },
+        {
+          "ano": 2018,
+          "valor": 47903.0
+        },
+        {
+          "ano": 2019,
+          "valor": 50617.0
+        },
+        {
+          "ano": 2020,
+          "valor": 52411.0
+        },
+        {
+          "ano": 2021,
+          "valor": 55824.0
+        },
+        {
+          "ano": 2022,
+          "valor": 59327.0
+        },
+        {
+          "ano": 2023,
+          "valor": 65036.0
+        },
+        {
+          "ano": 2024,
+          "valor": 71074.0
+        },
+        {
+          "ano": 2025,
+          "valor": 76447.0
+        }
+      ]
+    },
+    {
+      "codigo": "moburb_frota_automoveis",
+      "tema": "Mobilidade urbana",
+      "nome": "Frota de automoveis",
+      "unidade": "",
+      "definicao": "Quantidade de automóveis registrados no município no período de referência.",
+      "uso": "Acompanhar a evolução da frota de automóveis.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://cidades.ibge.gov.br/brasil/rj/sao-goncalo/pesquisa/22/28120",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2025,
+      "ultimo_valor": 247239.0,
+      "dados": [
+        {
+          "ano": 2006,
+          "valor": 90884.0
+        },
+        {
+          "ano": 2007,
+          "valor": 98317.0
+        },
+        {
+          "ano": 2008,
+          "valor": 107479.0
+        },
+        {
+          "ano": 2009,
+          "valor": 117794.0
+        },
+        {
+          "ano": 2010,
+          "valor": 128623.0
+        },
+        {
+          "ano": 2011,
+          "valor": 140038.0
+        },
+        {
+          "ano": 2012,
+          "valor": 155031.0
+        },
+        {
+          "ano": 2013,
+          "valor": 169.69
+        },
+        {
+          "ano": 2014,
+          "valor": 183027.0
+        },
+        {
+          "ano": 2015,
+          "valor": 193611.0
+        },
+        {
+          "ano": 2016,
+          "valor": 202522.0
+        },
+        {
+          "ano": 2017,
+          "valor": 210005.0
+        },
+        {
+          "ano": 2018,
+          "valor": 216357.0
+        },
+        {
+          "ano": 2019,
+          "valor": 223776.0
+        },
+        {
+          "ano": 2020,
+          "valor": 228887.0
+        },
+        {
+          "ano": 2021,
+          "valor": 233.72
+        },
+        {
+          "ano": 2022,
+          "valor": 236912.0
+        },
+        {
+          "ano": 2023,
+          "valor": 239907.0
+        },
+        {
+          "ano": 2024,
+          "valor": 243628.0
+        },
+        {
+          "ano": 2025,
+          "valor": 247239.0
+        }
+      ]
+    },
+    {
+      "codigo": "meioamb_emissoes_liquida_gases_estufa",
+      "tema": "Meio ambiente",
+      "nome": "Estimativa emissoes liquidas de gases de efeito estufa",
+      "unidade": "",
+      "definicao": "Estimativa das emissões antrópicas de gases de efeito estufa descontadas as remoções de carbono, resultando em emissões líquidas. O SEEG disponibiliza estimativas para municípios e setores, e define emissões líquidas como emissões menos remoções. (Seeg)",
+      "uso": "Monitorar a evolução das emissões líquidas do território e sua contribuição para o balanço de gases de efeito estufa.",
+      "metodologia": "",
+      "periodicidade": "",
+      "fonte": "https://plataforma.seeg.eco.br/territorio/rj-sao-goncalo",
+      "criado_em": "14/11/26",
+      "atualizado_em": "",
+      "ultimo_ano": 2010,
+      "ultimo_valor": 1089970.49,
+      "dados": [
+        {
+          "ano": 2010,
+          "valor": 1089970.49
+        }
+      ]
+    }
+  ]
+}

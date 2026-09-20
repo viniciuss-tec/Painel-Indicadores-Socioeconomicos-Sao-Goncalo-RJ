@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.db
+.DS_Store
+
+# Lock files de editores
+~$*
+*.lock
+*.lock.*
+*.csv#
+*.~lock.*
+
+# Processamento dos dados
+data/dados_processados/*.tmp
+
+ProxEtapas.txt

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Painel de indicadores socioeconômicos"
+    >
+
+    <title>Painel de Índices Socioeconômicos</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+</head>
+
+<body>
+
+<header class="cabecalho">
+    <div class="container">
+        <p class="sobre-titulo">Painel de dados</p>
+
+        <h1>Painel de Índices Socioeconômicos</h1>
+
+        <p class="subtitulo">
+            Indicadores socioeconômicos de Sao Gonçalo - RJ, organizados por tema.
+        </p>
+    </div>
+</header>
+
+
+<main class="container principal">
+
+    <section class="busca-section" aria-labelledby="titulo-busca">
+        <h2 id="titulo-busca" class="visualmente-oculto">
+            Buscar indicadores
+        </h2>
+
+        <label for="busca">
+            Buscar indicador por palavra-chave
+        </label>
+
+        <input
+            id="busca"
+            type="search"
+            placeholder="Ex.: mortalidade, matrícula, água..."
+            autocomplete="off"
+        >
+    </section>
+
+
+    <section
+        class="temas-section"
+        aria-labelledby="titulo-temas"
+    >
+        <div class="section-cabecalho">
+            <div>
+                <p class="eyebrow">Navegação</p>
+                <h2 id="titulo-temas">Temas</h2>
+            </div>
+
+            <span id="contador" class="contador">
+                Carregando...
+            </span>
+        </div>
+
+        <nav
+            id="tabs-temas"
+            class="tabs"
+            aria-label="Temas dos indicadores"
+        ></nav>
+    </section>
+
+
+    <p
+        id="mensagem"
+        class="mensagem"
+        role="status"
+        aria-live="polite"
+    ></p>
+
+
+    <section
+        id="lista-indicadores"
+        class="lista-indicadores"
+        aria-live="polite"
+        aria-label="Lista de indicadores"
+    ></section>
+
+
+    <section
+        id="detalhe"
+        class="detalhe"
+        aria-live="polite"
+        aria-label="Detalhes do indicador selecionado"
+    >
+        <div class="detalhe-vazio">
+            <p>
+                Selecione um indicador para visualizar o histórico e os metadados.
+            </p>
+        </div>
+    </section>
+
+</main>
+
+
+<footer class="rodape">
+    <div class="container">
+        <p>
+            PAINEL DE INDICADORES SOCIOECONOMICOS DE SAO GONÇALO - RJ
+        </p>
+
+        <p>
+            PROJETO EM DESENVOLVIMENTO
+        </p>
+    </div>
+</footer>
+
+
+<script
+    type="module"
+    src="js/app.js"
+></script>
+
+</body>
+</html>

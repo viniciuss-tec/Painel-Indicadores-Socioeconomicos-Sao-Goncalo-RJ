@@ -1,0 +1,15 @@
+STATUS DO PAINEL DE INDICES SOCIOECONOMICOS — 2026-09-20 15:34
+==================================================
+
+Validação (modo desenvolvimento):
+exit code = 0
+
+Normalização:
+exit code = 0
+
+Observação:
+O validador o sinaliza como AVISO no modo de desenvolvimento e como ERRO nomodo --strict. 
+
+O normalizador não publicará esse indicador.
+
+O histórico vazio é tratado como ausência de dado.
